@@ -1,0 +1,178 @@
+form {
+  box-sizing: border-box;
+  display: block;
+  margin: 2rem auto;
+  width: 400px;
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 14px 18px;
+  border-radius: 3px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="search"] {
+  width: 100%;
+  background-color: #fff;
+  height: 31px;
+  padding: 3px 7px;
+  margin-right: 18px;
+  font-size: inherit;
+  line-height: normal;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+select,
+select option {
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-mobile-code {
+  background-color: #e7e9ec;
+  height: 31px;
+  padding: 0 10px 0 11px;
+  border-radius: 3px;
+  font-size: inherit;
+  width: 180px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field-p {
+  font-weight: 600;
+}
+
+.mobile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn,
+.create-btn {
+  width: 100%;
+  height: 31px;
+  font-family: "Poppins", sans-serif;
+  background: #f0c14bac;
+  color: #111;
+  font-size: inherit;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 1px 6px;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.btn:focus {
+  background: #f0c14b;
+  outline: none; /* remove the default focus outline */
+  box-shadow: #f3b822 0px 0px 8px 0px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.create-btn {
+  background-color: #e7e9ec;
+}
+.create-btn:hover {
+  background-color: #dde0e5;
+}
+
+/* OtpVerification */
+.linema {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Login Next Details */
+
+.login-next-details {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 12px 0px;
+  border-radius: 8px;
+  opacity: 0;
+  animation: fadeInAnimation 0.1s ease-in-out forwards;
+}
+
+.login-next-details {
+  position: absolute;
+  /* top: 28%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-next-details header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7e9ec;
+  padding: 0.5rem 1rem;
+}
+
+.login-next-details p {
+  margin: 1rem;
+}
+
+.login_next_checkbox_div {
+  display: flex;
+  align-items: center;
+}
+
+.login-next-formfield {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  50% {
+    opacity: 0.5;
+    display: block;
+  }
+  100% {
+    opacity: 1;
+    display: block;
+  }
+}
+
+/* Forgot Password */
+
+.login-container {
+  box-sizing: border-box;
+  width: 400px;
+  margin: 1rem auto;
+}

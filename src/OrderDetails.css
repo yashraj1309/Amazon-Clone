@@ -1,0 +1,85 @@
+.orderdetails {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.orderdetails > h1 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.orderdetails_date {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 2.5px;
+  margin-bottom: 1rem;
+}
+
+.orderdetails_line {
+  display: inline-block;
+  width: 1px;
+  height: 18px;
+  background-color: lightgray;
+}
+
+.orderdetails_section h4 {
+  margin-bottom: 10px;
+}
+
+.orderdetails_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.orderdetails_section_Main {
+  width: 230px;
+}
+
+.orderdetails_section_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productdetails_section {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.home_btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_btn > button {
+  width: 50%;
+  height: 31px;
+  font-family: "Poppins", sans-serif;
+  background: #f0c14bac;
+  color: #111;
+  font-size: inherit;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 1px 6px;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #e7e9ec;
+}
+
+.home_btn > button:hover {
+  opacity: 0.9;
+}
