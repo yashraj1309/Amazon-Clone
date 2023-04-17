@@ -47,7 +47,7 @@ export default function Header() {
           <span className="header_optionLineTwo">Prime</span>
         </div>
 
-        <Link to="/checkout">
+        <Link to="/checkout" style={{textDecoration: "none"}}>
           <div className="header_optionBasket">
             <ShpppingBasketIcon />
             <span className="header_optionLineTwo header_basketCount">

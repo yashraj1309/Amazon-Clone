@@ -41,3 +41,16 @@
   margin-right: 5px;
   height: fit-content;
 }
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) {
+  .home {
+    max-width: 100%;
+  }
+  .home_row {
+    grid-template-columns: 1fr;
+  }
+  .home_image_grid {
+    margin-bottom: -75px;
+  }
+ }

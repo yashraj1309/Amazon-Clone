@@ -32,7 +32,7 @@ export default function Product(props) {
               &#11088;
             </span>
           ))}
-          <span className="product_rating_count">({props.ratingCount})</span>
+          (<span className="product_rating_count" style={{textDecoration: "underline",cursor: "pointer"}} title="number of user ratings">{props.ratingCount}</span>)
         </div>
       </div>
       <img src={props.image} alt="" />

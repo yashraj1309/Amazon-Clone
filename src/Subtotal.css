@@ -25,9 +25,16 @@
   width: 100%;
   height: 30px;
   border: 1px solid;
-  margin-top: 19ox;
+  margin-top: 19px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
+}
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) {
+  .subtotal {
+    margin-top: 2rem;
+  }
 }

@@ -36,3 +36,14 @@
 .checkout_EmptyInfo {
   margin-left: 24px;
 }
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) {
+  .checkout {
+    flex-direction: column;
+  }
+  .checkout_Empty {
+    width: 100% !important;
+    flex-direction: column;
+  }
+}

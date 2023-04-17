@@ -67,3 +67,13 @@
 .payment_details > button:hover {
   transform: scale(1.05);
 }
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) {
+  .payment_section {
+    flex-direction: column;
+  }
+  .payment_details > button {
+    width: 100%;
+  }
+}

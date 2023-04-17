@@ -70,3 +70,21 @@ input:focus {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) { 
+  .header {
+    justify-content: space-between;
+  }
+  .header_search {
+    display: none;
+  }
+  .header_searchIcon {
+    display: none;
+  }
+  .header_option:nth-child(2),
+  .header_option:nth-child(3) {
+  display: none;
+}
+ }
+

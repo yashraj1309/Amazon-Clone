@@ -1,4 +1,5 @@
 import "./CheckoutProduct.css";
+import "./OrderDetailsProduct.css";
 
 export default function CheckoutProduct(props) {
   return (

@@ -176,3 +176,10 @@ input::placeholder {
   width: 400px;
   margin: 1rem auto;
 }
+
+/* Small Screens */
+@media only screen and (max-device-width: 812px) {
+  .login-container,.login-next-details, form {
+    width: 85%;
+  }
+}

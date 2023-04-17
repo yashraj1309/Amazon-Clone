@@ -8,6 +8,8 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@material-ui/core": "5.0.0-alpha.38",
     "@material-ui/icons": "5.0.0-alpha.37",
     "loader-utils": "3.2.1",
